@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* HEADER */
+
+header::before {
+	content:  "";
+	display:  block;
+	margin-bottom: 80px;
+}
+
+nav {
+	width:  100%;
+	height: 80px;
+	background: rgb(235, 215, 202);
+	border-bottom: 1px solid transparent;
+	box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .2);
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	transition: ease-in-out 0.5s;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	height: 80px;
+	width: 100%;
+	align-items: center;
+}
+
+.avg {
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.download_curriculum {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+/* MAIN */
+
+.main {
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    margin: 40px 0;
+    margin-top: 120px;
+}
+
+.container {
+    width: 1200px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(600px, 1fr));
+    grid-gap: 20px;
+    grid-auto-flow: dense;
+    list-style: none;
+    padding: 0;
+    margin: 1em auto;
+}
+
+.project {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 1px 8px rgba(56, 56, 56, 0.46);
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.project_img {
+    width: 300px;
+    height: 100%;
+    z-index: 1;
+}
+
+.project_img img {
+    height: 150%;
+    object-fit: cover;
+    object-position: center;
+    transform: translateY(-25%);
+    transition: all 0.4s;
+}
+
+.project:hover .project_img img {
+    height: 200%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project_info {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.project_info .project_up {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.project_info .project_title {
+    margin-bottom: 10px;
+}
+
+.project_info .project_description {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.project_tecnology {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project_tecnology img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.project .link_github {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    text-decoration: none;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s;
+}
+
+.project .link_github .github_icon {
+    color: rgb(100, 100, 100);
+    font-size: 80%;
+    transition:transform 0.5s;
+}
+
+.project .link_github:hover .github_icon {
+    transform: scale(1.2);
+}
+
+/* FOOTER */
+
+footer {
+    height: 150px;
+    background-color: rgb(100,100,100);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_cv {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.4s;
+}
+
+.container_cv:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+.cv {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cv_icon {
+    margin-right: 10px;
+}
+
+.social {
+    display: flex;
+}
+
+.social__item {
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    align-items:center;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    transition: transform 0.5s;
+    margin-right: 20px;
+}
+
+.social__icon {
+    color: white;
+    font-size: 60%;
+    transition:transform 0.5s;
+}
+
+.social__item:hover {
+    background: white;
+    border-color: white;
+    transform: scale(1.2);
+}
+
+.social__item:hover .social__icon {
+    color: rgb(100,100,100);
+}
+
+
+.contact__item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.contact__icon {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact__value {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+/* MOVILE */
+
+@media only screen and (max-width: 1300px) {
+
+    /* MAIN */
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    /* HEADER */
+
+    header::before {
+        margin-bottom: 100px;
+    }
+    
+    nav {
+        height: 100px;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+    }
+
+    /* MAIN */
+
+    .container {
+        min-width: 0;
+    }
+
+}
+
+@media only screen and (max-width: 625px) {
+
+    /* MAIN */
+
+    .project {
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        box-shadow: 0 1px 8px rgba(56, 56, 56, 0.46);
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    
+    .project_img {
+        width: 100%;
+        height: 150px;
+        z-index: 1;
+    }
+    
+    .project_img img {
+        width: 150%;
+        object-fit: cover;
+        object-position: center;
+        transition: all 0.4s;
+    }
+
+    .project:hover .project_img img {
+        width: 200%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .project_info {
+        height: auto;
+        background-color: white;
+        z-index: 2;
+    }
+
+    .project_description {
+        text-align: center;
+    }
+
+    /* FOOTER */
+
+    footer {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .cv {
+        font-size: 12px;
+    }
+    
+    .cv_icon {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    
+    .social__item {
+        width: 35px;
+        height: 35px;
+        font-size: 35px;
+    }
+    
+    .contact__icon {
+        color: white;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    
+    .contact__value {
+        color: white;
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+}
