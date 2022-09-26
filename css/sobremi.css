@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
 }
 
@@ -44,6 +46,11 @@ nav {
     font-family: 'Source Code Pro', monospace;
 }
 
+.avg a {
+    text-decoration: none;
+    color: black;
+}
+
 .download_curriculum {
     text-decoration: none;
     color: black;
@@ -66,6 +73,11 @@ nav {
 }
 
 /* MAIN */
+
+.oculto {
+    opacity: 0;
+    transition: all 0.5s;
+}
 
 .main {
     display: flex;
@@ -97,11 +109,21 @@ nav {
     overflow: hidden;
     border-radius: 8px;
     margin-bottom: 15px;
+    opacity: 0;
+    transition: opacity 2.5s;
+}
+
+.part_item.active {
+    opacity: 1;
 }
 
 .part .subtitle {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: rgb(100,100,100);
+    border-width: 0 0 0 3px;
+    border-style: solid;
+    border-color: rgb(235, 215, 202);
+    padding-left: 10px;
 }
 
 .part .item_header {
