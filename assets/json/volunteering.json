@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Voluntario",
+        "subtitle": "",
+        "date": "2018 - 2019",
+        "company": "Cooperación Internacional",
+        "location": "Hospital Clínico Universitario de Valladolid",
+        "description": "Voluntario en el proyecto 'Lectura Pacientes', en la cual visitábamos cada sábado por la tarde a enfermos del hospital, para acompañarles en su recuperación, sugerirles lecturas que seleccionábamos previamente, y darles conversación.",
+        "links": [
+            {
+                "url": "https://ciong.org/novedad/nuestros-nuestros-voluntarios-llevan-lecturas-pacientes-al-hospital-de-valladolidoluntarios-llevan-lecturas-pacientes-al-hospital-de-valladolid/",
+                "name": "Publicación 1"
+            },
+            {
+                "url":"https://ciong.org/voluntariado/lecturas-pacientes/",
+                "name":"Publicación 2"
+            }
+        ]
+    }
+]

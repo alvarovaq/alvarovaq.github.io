@@ -1,0 +1,57 @@
+[
+    {
+        "imgUrl": "./assets/images/minesweeper.png",
+        "title": "Minesweeper",
+        "description": "Desarrollo del conocido juego buscaminas. Consiste en encontrar todas las minas del tablero sin caer en ellas.",
+        "time": "2 semanas",
+        "date": "Diciembre de 2020",
+        "language": "Python",
+        "url": "https://github.com/alvarovaq/Minesweeper",
+        "row": "row",
+        "line": true
+      },
+      {
+        "imgUrl": "./assets/images/flappybird.png",
+        "title": "Flappy Bird",
+        "description": "Recreación del icónico juego Flappy Birds. Tu misión es esquivar los obstáculos que te vas a encontrar en el camino.",
+        "time": "3 días",
+        "date": "Agosto de 2020",
+        "language": "Python",
+        "url": "https://github.com/alvarovaq/FlappyBird",
+        "row": "row-reverse",
+        "line": true
+      },
+      {
+        "imgUrl": "./assets/images/cuboland3d.png",
+        "title": "Cuboland 3D",
+        "description": "Mundo 3D repleto de cubos de colores. Construye ciudades, figuras, texto, y todo lo que tu mente pueda imaginar, no existen límites",
+        "time": "3 Semanas",
+        "date": "Diciembre de 2020",
+        "language": "Python",
+        "url": "https://github.com/alvarovaq/Cuboland3D",
+        "row": "row",
+        "line": true
+      },
+      {
+        "imgUrl": "./assets/images/pixelart.png",
+        "title": "Pixel Art",
+        "description": "Expora tu imaginación creando escenarios y personajes al nivel del píxel.",
+        "time": "1 mes",
+        "date": "Julio de 2020",
+        "language": "Python",
+        "url": "https://github.com/alvarovaq/PixelArt",
+        "row": "row-reverse",
+        "line": true
+      },
+      {
+        "imgUrl": "./assets/images/thewalkingdead.png",
+        "title": "The Walking Dead",
+        "description": "Sumérgete en un mundo de armas, zombis y mucha diversión. Corre y que no te pillen, pobre de ti si lo hacen.",
+        "time": "3 meses",
+        "date": "Marzo de 2021",
+        "language": "Python",
+        "url": "https://github.com/alvarovaq/TheWalkingDead",
+        "row": "row",
+        "line": false
+      }
+]

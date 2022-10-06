@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Monitor",
+        "subtitle": "",
+        "date": "Julio de 2022",
+        "company": "Castle English Course",
+        "location": "Córdoba",
+        "description": "Campamento de inglés con 85 niños de entre 12 y 16 años durante 4 semanas. Encargado de coordinar las competiciones deportivas.",
+        "links": []
+    },
+    {
+        "title": "Profesor Particular de Matemáticas",
+        "subtitle": "",
+        "date": "2021-2022",
+        "company": "A título personal",
+        "location": "Valladolid",
+        "description": "Profesor particular de un alumno de 4ºESO durante un curso académico, para la preparación de exámenes y resolución de dudas. 2 horas semanales.",
+        "links": []
+    },
+    {
+        "title": "Entrenador de Fútbol Sala",
+        "subtitle": "",
+        "date": "2020-2022",
+        "company": "Asociación Juvenil Niara",
+        "location": "Valladolid",
+        "description": "Entrenador de categorías inferiores (Alevín y Cadetes), compitiendo en la liga escolar del ayuntamiento de Valladolid.",
+        "links": []
+    },
+    {
+        "title": "Monitor",
+        "subtitle": "",
+        "date": "2020 - 2021",
+        "company": "Asociación Juvenil Niara",
+        "location": "Valladolid",
+        "description": "Monitor en clinics matinales de fútbol sala y otros deportes. Un mes de responsable (5 monitores y 45 niños).",
+        "links": []
+    }
+    
+]

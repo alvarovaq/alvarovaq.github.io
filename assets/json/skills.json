@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Python",
+        "value": "90%"
+    },
+    {
+        "name": "Java",
+        "value": "80%"
+    },
+    {
+        "name": "C",
+        "value": "75%"
+    },
+    {
+        "name": "HTML",
+        "value": "80%"
+    },
+    {
+        "name": "CSS",
+        "value": "75%"
+    },
+    {
+        "name": "JavaScript",
+        "value": "65%"
+    },
+    {
+        "name": "PHP",
+        "value": "55%"
+    },
+    {
+        "name": "Flutter",
+        "value": "75%"
+    },
+    {
+        "name": "Photoshop",
+        "value": "50%"
+    },
+    {
+        "name": "Matlab",
+        "value": "55%"
+    },
+    {
+        "name": "Blender",
+        "value": "50%"
+    },
+    {
+        "name": "Unity",
+        "value": "55%"
+    },
+    {
+        "name": "Arduino",
+        "value": "60%"
+    },
+    {
+        "name": "Excel",
+        "value": "65%"
+    },
+    {
+        "name": "Word",
+        "value": "65%"
+    },
+    {
+        "name": "PowerPoint",
+        "value": "60%"
+    },
+    {
+        "name": "Git",
+        "value": "55%"
+    },
+    {
+        "name": "SQL",
+        "value": "65%"
+    }
+]
