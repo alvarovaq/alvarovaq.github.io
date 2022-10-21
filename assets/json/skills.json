@@ -24,6 +24,18 @@
         "value": "65%"
     },
     {
+        "name": "Angular",
+        "value": "60%"
+    },
+    {
+        "name": "Kotlin",
+        "value": "50%"
+    },
+    {
+        "name": "Android Studio",
+        "value": "55%"
+    },
+    {
         "name": "PHP",
         "value": "55%"
     },
@@ -33,7 +45,7 @@
     },
     {
         "name": "Photoshop",
-        "value": "50%"
+        "value": "65%"
     },
     {
         "name": "Matlab",
@@ -68,7 +80,7 @@
         "value": "55%"
     },
     {
-        "name": "SQL",
+        "name": "MySQL",
         "value": "65%"
     }
 ]
