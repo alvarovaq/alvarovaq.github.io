@@ -20,12 +20,16 @@
         "value": "75%"
     },
     {
+        "name": "Angular",
+        "value": "80%"
+    },
+    {
         "name": "JavaScript",
         "value": "65%"
     },
     {
-        "name": "Angular",
-        "value": "60%"
+        "name": "Flutter",
+        "value": "75%"
     },
     {
         "name": "Kotlin",
@@ -36,12 +40,28 @@
         "value": "55%"
     },
     {
+        "name": "NestJS",
+        "value": "75%"
+    },
+    {
         "name": "PHP",
         "value": "55%"
     },
     {
-        "name": "Flutter",
-        "value": "75%"
+        "name": "MongoDB",
+        "value": "70%"
+    },
+    {
+        "name": "MySQL",
+        "value": "65%"
+    },
+    {
+        "name": "PowerApps",
+        "value": "80%"
+    },
+    {
+        "name": "Power Automate",
+        "value": "70%"
     },
     {
         "name": "Photoshop",
@@ -74,13 +94,5 @@
     {
         "name": "PowerPoint",
         "value": "60%"
-    },
-    {
-        "name": "Git",
-        "value": "55%"
-    },
-    {
-        "name": "MySQL",
-        "value": "65%"
     }
 ]
