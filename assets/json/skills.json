@@ -37,7 +37,7 @@
     },
     {
         "name": "PHP",
-        "value": "55%"
+        "value": "60%"
     },
     {
         "name": "MongoDB",
@@ -57,7 +57,7 @@
     },
     {
         "name": "Photoshop",
-        "value": "65%"
+        "value": "60%"
     },
     {
         "name": "Matlab",
@@ -65,22 +65,26 @@
     },
     {
         "name": "Blender",
-        "value": "50%"
-    },
-    {
-        "name": "Unity",
         "value": "55%"
     },
     {
-        "name": "Arduino",
+        "name": "Unity",
         "value": "60%"
     },
     {
+        "name": "Arduino",
+        "value": "55%"
+    },
+    {
         "name": "Excel",
-        "value": "65%"
+        "value": "60%"
     },
     {
         "name": "SharePoint",
+        "value": "65%"
+    },
+    {
+        "name": "Git",
         "value": "65%"
     }
 ]
