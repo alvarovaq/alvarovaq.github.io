@@ -21,27 +21,19 @@
     },
     {
         "name": "Angular",
-        "value": "80%"
+        "value": "85%"
     },
     {
         "name": "JavaScript",
-        "value": "65%"
+        "value": "70%"
     },
     {
         "name": "Flutter",
         "value": "75%"
     },
     {
-        "name": "Kotlin",
-        "value": "50%"
-    },
-    {
-        "name": "Android Studio",
-        "value": "55%"
-    },
-    {
         "name": "NestJS",
-        "value": "75%"
+        "value": "80%"
     },
     {
         "name": "PHP",
@@ -57,7 +49,7 @@
     },
     {
         "name": "PowerApps",
-        "value": "80%"
+        "value": "85%"
     },
     {
         "name": "Power Automate",
@@ -88,11 +80,7 @@
         "value": "65%"
     },
     {
-        "name": "Word",
+        "name": "SharePoint",
         "value": "65%"
-    },
-    {
-        "name": "PowerPoint",
-        "value": "60%"
     }
 ]
